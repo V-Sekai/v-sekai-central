@@ -10,9 +10,9 @@
         }
     },
     "installer": {
-        "script": "Start-Process -FilePath \"$dir\\thirdparty\\desync.exe\" -ArgumentList \"untar -i -s $dir\\store\\ $dir\\vsekai_game_windows_x86_64.caidx $dir\\vsekai_game_windows_x86_64\""
+        "script": "Start-Process -FilePath \"$dir\\thirdparty\\desync.exe\" -ArgumentList \"untar -i -s $dir\\store\\ $dir\\vsekai_game_windows_x86_64.caidx $dir\" -Wait"
     },
-    "bin": "vsekai_game_windows_x86_64/vsekai_game_windows.exe",
+    "bin": "vsekai_game_windows.exe",
     "checkver": {
         "github": "https://github.com/V-Sekai/casync-v-sekai-game",
         "regex": "tag/([\\w.-]+)"
