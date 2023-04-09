@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/V-Sekai/v-sekai-central/archive/refs/tags/v0.1.zip",
-            "hash": "31a241da22e321758c87fa87598754875a8332b5b25ee59acd52c2820df9c394"
+            "url": "https://github.com/V-Sekai/casync-v-sekai-game/archive/refs/tags/v0.1.zip",
+            "hash": "7b51bc569da18bce827c19dd2aad2b72e2fe20e179a084ab4a6cc755e34f04bb"
         }
     },
     "pre_install": "thirdparty/desync.exe tar -i -s vsekai_game_casync/store vsekai_game_casync/vsekai_game_windows_x86_64.caidx vsekai_game_windows_x86_64",
