@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/V-Sekai/casync-v-sekai-game/archive/refs/tags/v0.1.zip",
-            "hash": "7b51bc569da18bce827c19dd2aad2b72e2fe20e179a084ab4a6cc755e34f04bb"
+            "hash": "7b51bc569da18bce827c19dd2aad2b72e2fe20e179a084ab4a6cc755e34f04bb",
+            "pre_install": [
+                "Start-Process -FilePath \"$dir\\thirdparty\\desync.exe\" -ArgumentList @('untar', '-i', '-s', \"$dir\\store\", \"$dir\\store $dir\\vsekai_game_windows_x86_64.caidx\", \"$dir\") -Wait"
+            ]
         }
-    },
-    "installer": {
-        "script": "Start-Process \".\\$dir\\thirdparty\\desync.exe\" -ArgumentList \"untar -i -s $dir\\store $dir\\vsekai_game_windows_x86_64.caidx .\" -Verb RunAs -Wait"
     },
     "bin": "vsekai_game_windows.exe",
     "checkver": {
