@@ -10,7 +10,7 @@
         }
     },
 
-    "pre_install": "Set-Location $dir; Start-Process -NoNewWindow -FilePath .\thirdparty\\desync.exe -ArgumentList \"untar -i -s ./store/ ./vsekai_game_windows_x86_64.caidx .\"",
+    "pre_install": "Set-Location $dir; Start-Process -NoNewWindow -FilePath .\\thirdparty\\desync.exe -ArgumentList \"untar -i -s ./store/ ./vsekai_game_windows_x86_64.caidx .\"",
     "bin": "vsekai_game_windows_x86_64/vsekai_game_windows.exe",
     "checkver": {
         "github": "https://github.com/V-Sekai/casync-v-sekai-game",
