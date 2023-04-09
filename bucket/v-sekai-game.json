@@ -8,7 +8,7 @@
             "url": "https://github.com/V-Sekai/casync-v-sekai-game/archive/refs/tags/v0.1.zip",
             "hash": "7b51bc569da18bce827c19dd2aad2b72e2fe20e179a084ab4a6cc755e34f04bb",
             "pre_install": [
-                "Start-Process -NoNewWindow -FilePath \"$dir\\casync-v-sekai-game-$version\\thirdparty\\desync.exe\" -ArgumentList @('untar', '-i', '-s', \"$dir\\casync-v-sekai-game-$version\\store\", \"$dir\\casync-v-sekai-game-$version\\store\", \"$dir\\casync-v-sekai-game-$version\\vsekai_game_windows_x86_64.caidx\", \"$dir\") -Wait"
+                "Start-Process -NoNewWindow -FilePath \"$dir\\casync-v-sekai-game-$version\\thirdparty\\desync.exe\" -ArgumentList @('untar', '-i', '-s', \"$dir\\casync-v-sekai-game-$version\\store\", \"$dir\\casync-v-sekai-game-$version\\vsekai_game_windows_x86_64.caidx\", \"$dir\") -Wait"
             ]
         }
     },
