@@ -10,7 +10,7 @@
         }
     },
     "installer": {
-        "script": "Start-Process -NoNewWindow -FilePath $dir\\thirdparty\\desync.exe -ArgumentList \"untar -i -s $dir\\store $dir\\vsekai_game_windows_x86_64.caidx $dir\""
+        "script": "Start-Process -NoNewWindow -FilePath \"$dir\\thirdparty\\desync.exe\" -ArgumentList \"untar -i -s \"$dir\\store $dir\\vsekai_game_windows_x86_64.caidx\" \"$dir\"\""
     },
     "bin": "vsekai_game_windows.exe",
     "checkver": {
